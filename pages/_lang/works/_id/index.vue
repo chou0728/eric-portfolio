@@ -1,7 +1,6 @@
 <template>
   <div>
-    Skill
-    <el-tag effect="plain" type="info">React.js</el-tag>
+
   </div>
 </template>
 

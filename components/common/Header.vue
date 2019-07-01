@@ -1,17 +1,7 @@
 <template>
   <div class="header-container">
     <header class="the-header">
-      <div class="logo">
-        <nuxt-link to="/">ERIC</nuxt-link>
-      </div>
-      <div class="spacer"></div>
-      <div class="navigation-items">
-        <ul class="nav-list">
-          <li class="nav-item" v-for="(item,index) in $t('components.Header.navList')" :key="index">
-						<nuxt-link :to="{ path: routerPath(item.path) }">{{ item.title }}</nuxt-link>
-          </li>
-        </ul>
-      </div>
+      <h1>Eric's Portfolio</h1>
       <SideNavToggle @toggle="$emit('sidenavToggle')" />
     </header>
   </div>
@@ -21,7 +11,7 @@
 import SideNavToggle from '@/components/common/SideNavToggle'
 
 export default {
-  name: 'TheHeader',
+  name: 'Header',
   components: {
     SideNavToggle
   },
@@ -33,9 +23,14 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .header-container {
+  display: none;
   height: 60px;
+
+  @include RWD-phone {
+    display: block;
+  }
 }
 
 .the-header {
@@ -45,10 +40,15 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: black;
+  background-color: #2f2f2f;
   z-index: 100;
   box-sizing: border-box;
-  padding: 0 40px;
+  padding: 0 20px;
+}
+
+h1 {
+  font-size: 1.3rem;
+  color: #fff;
 }
 
 .logo {

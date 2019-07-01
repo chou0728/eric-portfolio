@@ -14,7 +14,12 @@ import {
   InputNumber,
   Steps,
   Step,
-  Divider
+  Divider,
+  Menu,
+  Submenu,
+  MenuItem,
+  MenuItemGroup,
+  Tag
 } from 'element-ui';
 
 Vue.use(Row);
@@ -32,6 +37,11 @@ Vue.use(InputNumber);
 Vue.use(Steps);
 Vue.use(Step);
 Vue.use(Divider);
+Vue.use(Menu);
+Vue.use(Submenu);
+Vue.use(MenuItem);
+Vue.use(MenuItemGroup);
+Vue.use(Tag);
 
 // 完整组件引入參考
 
