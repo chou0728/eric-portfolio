@@ -1,0 +1,85 @@
+@import "./variables";
+
+// pc large
+@mixin RWD-pc-large() {
+  @media all and (min-width: $pc-large) {
+    @content;
+  }
+}
+
+// pc 
+@mixin RWD-pc() {
+  @media all and (min-width: $pc) {
+    @content;
+  }
+}
+
+// pad
+@mixin RWD-pad() {
+  @media all and (min-width: $pad) and (max-width: $pc - 1) {
+    @content;
+  }
+}
+
+// phone 
+@mixin RWD-phone() {
+  @media all and (max-width: $phone) {
+    @content;
+  }
+}
+
+// phone 以上
+@mixin RWD-phone-up() {
+  @media all and (min-width: $pad) {
+    @content;
+  }
+}
+
+
+@mixin RWD-padding($pc, $pad, $phone) {
+  @include RWD-pc {
+    padding: $pc;
+  }
+  @include RWD-pad {
+    padding: $pad;
+  }
+  @include RWD-phone {
+    padding: $phone;
+  }
+}
+
+@mixin RWD-margin($pc, $pad, $phone) {
+  @include RWD-pc {
+    margin: $pc;
+  }
+  @include RWD-pad {
+    margin: $pad;
+  }
+  @include RWD-phone {
+    margin: $phone;
+  }
+}
+
+@mixin RWD-font-size($pc, $pad, $phone) {
+  @include RWD-pc {
+    font-size: $pc;
+  }
+  @include RWD-pad {
+    font-size: $pad;
+  }
+  @include RWD-phone {
+    font-size: $phone;
+  }
+}
+
+@mixin RWD-width($pc, $pad, $phone) {
+  @include RWD-pc {
+    width: $pc;
+  }
+  @include RWD-pad {
+    width: $pad;
+  }
+  @include RWD-phone {
+    width: $phone;
+  }
+}

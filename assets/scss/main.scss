@@ -1,0 +1,24 @@
+@import "~normalize.css";
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px 20px;
+
+  @include RWD-phone {
+    max-width: 540;
+    padding: 40px 15px;
+  }
+
+  @include RWD-pad {
+    max-width: 720px;
+  }
+
+  @include RWD-pc {
+    max-width: 960px;
+  }
+
+  @include RWD-pc-large {
+    max-width: 1000px;
+  }
+}

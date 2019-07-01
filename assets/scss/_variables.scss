@@ -1,0 +1,43 @@
+// color
+$color-primary: #3db49f;
+$color-primary-light: #64c3b2;
+$color-primary-deep: #05ac9e;
+$color-gray: #5f6061;
+$color-gray-light: rgba(238, 238, 238, 0.4);
+$color-gray-deep: #333;
+$color-black: #000;
+$color-white: #fff;
+
+// $color-primary: #31D665;
+// $color-primary-light: rgb(213, 255, 212);
+// $color-primary-deep: #438041;
+
+// $color-primary: #2fb8eb;
+// $color-primary-light: #C2EEFF;
+// $color-primary-deep: #1c84c6;
+
+// break point
+$pc-large: 1200px;
+$pc: 992px;
+$pad: 768px;
+$phone: 576px;
+
+// font-size
+$font-size-small: 0.875rem; // 14px (p)
+$font-size-basic: 16px;
+$font-size-medium: 1.375rem; // 22px (h3)
+$font-size-large: 1.75rem; // 28px (h2)
+$font-size-extra-large: 2rem; // 32px (h1)
+
+// font-family
+$font-family: "Noto Sans TC", Helvetica, "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+
+// font-weight
+$font-weight-bold: 700;
+$font-weight-basic: 400;
+$font-weight-thin: 100;
+
+// line-heigh
+$line-height-tall: 1.875;
+$line-height-basic: 1.5;
+$line-height-short: 1.375;

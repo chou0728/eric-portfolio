@@ -1,0 +1,44 @@
+html {
+  font-size: $font-size-basic;
+  box-sizing: border-box;
+}
+
+body {
+  color: $color-gray;
+  font-family: $font-family;
+  line-height: $line-height-basic;
+  font-weight: $font-weight-basic;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: $color-gray-deep;
+  font-size: $font-size-small;
+}
+
+h1 {
+  font-size: $font-size-extra-large;
+  margin: 0;
+}
+
+h2 {
+  font-size: $font-size-large;
+  margin: 0;
+}
+
+h3 {
+  font-size: $font-size-medium;
+  margin: 0;
+}
+
+p {
+  font-size: $font-size-small;
+  margin: 0;
+}
+

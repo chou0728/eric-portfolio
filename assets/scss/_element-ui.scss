@@ -1,0 +1,50 @@
+/* 改变主题色变量 */
+// $--color-primary: #31D665;
+// $--color-primary: #3db49f;
+
+/* 改变 icon 字体路径变量，必需 */
+// $--font-path: "~element-ui/lib/theme-chalk/fonts";
+
+// TODO: 編輯中勿啟用，會造成編譯過久
+
+// @import "~element-ui/packages/theme-chalk/src/row.scss";
+// @import "~element-ui/packages/theme-chalk/src/col.scss";
+// @import "~element-ui/packages/theme-chalk/src/button.scss";
+// @import "~element-ui/packages/theme-chalk/src/card.scss";
+// @import "~element-ui/packages/theme-chalk/src/date-picker.scss";
+// @import "~element-ui/packages/theme-chalk/src/dropdown-menu.scss";
+// @import "~element-ui/packages/theme-chalk/src/dropdown.scss";
+// @import "~element-ui/packages/theme-chalk/src/dropdown-item.scss";
+// @import "~element-ui/packages/theme-chalk/src/input.scss";
+// @import "~element-ui/packages/theme-chalk/src/input-number.scss";
+// @import "~element-ui/packages/theme-chalk/src/steps.scss";
+// @import "~element-ui/packages/theme-chalk/src/step.scss";
+
+// /* Break-point
+// --------------------------*/
+// $--sm: 768px !default;
+// $--md: 992px !default;
+// $--lg: 1200px !default;
+// $--xl: 1920px !default;
+
+// $--breakpoints: (
+//   'xs' : (max-width: $--sm - 1), // 手機 (768px以下）
+//   'sm' : (min-width: $--sm), // 平板 (768px以上)
+//   'md' : (min-width: $--md), // 電腦 (992px以上)
+//   'lg' : (min-width: $--lg),
+//   'xl' : (min-width: $--xl)
+// );
+
+// $--breakpoints-spec: (
+//   'xs-only' : (max-width: $--sm - 1),
+//   'sm-and-up' : (min-width: $--sm),
+//   'sm-only': "(min-width: #{$--sm}) and (max-width: #{$--md - 1})",
+//   'sm-and-down': (max-width: $--md - 1),
+//   'md-and-up' : (min-width: $--md),
+//   'md-only': "(min-width: #{$--md}) and (max-width: #{$--lg - 1})",
+//   'md-and-down': (max-width: $--lg - 1),
+//   'lg-and-up' : (min-width: $--lg),
+//   'lg-only': "(min-width: #{$--lg}) and (max-width: #{$--xl - 1})",
+//   'lg-and-down': (max-width: $--xl - 1),
+//   'xl-only' : (min-width: $--xl),
+// );
