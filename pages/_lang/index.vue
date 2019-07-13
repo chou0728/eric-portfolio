@@ -3,7 +3,7 @@
 		<h1>{{ $t('pages.Works.title') }}</h1>
 		<div class="works-item-list">
 			<el-card class="works-item" v-for="item in $t('pages.Works.worksItemList')" :key="item.id">
-        <a class="mask" :href="item.link" target="blank" />
+        <a class="mask" :href="item.link" target="_blank" />
         <div
           class="works-item__photo"
           :style="{ backgroundImage: `url(${item.imageUrl})`}"
