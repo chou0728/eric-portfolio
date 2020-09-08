@@ -1,7 +1,7 @@
 // element-ui 語系包
-import enLocale from 'element-ui/lib/locale/lang/en';
+import zhTWLocale from 'element-ui/lib/locale/lang/zh-CN';
 
-const enUS = {
+const zhTW = {
   components: {
     Datepicker: {
       placeholder: '選擇日期',
@@ -30,6 +30,42 @@ const enUS = {
     Works: {
       title: '作品集',
       worksItemList: [
+        {
+          id: '1-1',
+          link: 'https://chou0728.github.io/',
+          imageUrl: 'https://images.cakeresume.com/3Vxo8/eric-3295e7/98edc394-89ee-43fb-9af6-5e10c71448de.png',
+          title: 'Eric Shop',
+          descriptionList: [
+            '透過reselect來處理redux資料流的性能優化',
+            '使用redux-persist解決頁面刷新redux數據丟失問題',
+            '利用stripe來做金流的模擬串接',
+            '串接 FireBase 資料庫並與redux做整合',
+          ]
+        },
+        {
+          id: '1-2',
+          link: '#',
+          imageUrl: 'https://images.cakeresume.com/3Vxo8/eric-3295e7/72a1e76d-c3f2-4206-b2bb-cb545f44c718.png',
+          title: '遊戲API管理系統',
+          descriptionList: [
+            '使用crypto-js做API相關資料之加解密',
+            '具備根據不同角色實作權限控管之後台管理系統',
+            '使用Vuetify做為 UI component library'
+          ]
+        },
+        {
+          id: '1-3',
+          link: '#',
+          imageUrl: 'https://images.cakeresume.com/3Vxo8/eric-3295e7/0a1e744c-8ddc-4571-825f-2101fb2cd7eb.png',
+          title: '遊戲平台後台管理系統',
+          descriptionList: [
+            '具備根據不同角色實作權限控管之後台管理系統',
+            '整合TypeScript進此vue專案',
+            '透過vue i18n來達成多國語系功能',
+            '使用vuex來處理複雜的資料流',
+            '透過JavaScript來實作將表格轉換為Excel並供使用者下載',
+          ]
+        },
         {
           id: '1',
           link: 'http://cec-api-sit.cloud-interactive.com:5556',
@@ -137,6 +173,6 @@ const enUS = {
       ]
     }
   },
-  ...enLocale,
+  ...zhTWLocale,
 };
-export default enUS;
+export default zhTW;
