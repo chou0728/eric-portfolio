@@ -102,17 +102,17 @@ export default {
   /*
   ** Generate configuration
   */
-  generate: {
-    fallback: true,
-    fallback: '/zhTW/404/index.html',
-    routes: [
-      '/',
-      '/enUS',
-      '/zhTW',
-      '/enUS/404',
-      '/zhTW/404',
-    ],
-  },
+  // generate: {
+  //   fallback: true,
+  //   fallback: '/index.html',
+  //   routes: [
+  //     '/',
+      // '/enUS',
+      // '/zhTW',
+      // '/enUS/404',
+      // '/zhTW/404',
+    // ],
+  // },
   env: {
     baseUrl: process.env.BASE_URL,
   },

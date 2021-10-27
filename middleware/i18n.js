@@ -8,11 +8,11 @@ export default function ({
   if (isHMR) { // ignore if called from hot module replacement
     return;
   } // if url does not have language, redirect to zhTW
-  else if (!params.lang) { 
-    return redirect('/zhTW');
-  }
+  // else if (!params.lang) { 
+  //   return redirect('/enUS');
+  // }
   // based on directory structure _lang/xxxx, zhTW/about has params.lang as "zhTW"
-  const locale = params.lang || 'zhTW'; 
+  const locale = params.lang || 'enUS'; 
   store.commit('SET_LANG', locale); // set store
   app.i18n.locale = store.state.locale;
 }
