@@ -2,6 +2,9 @@
 
 > This is Eric&#39;s portfolio.
 
+## Node.js version
+v12.14.0
+
 ## Build Setup
 
 ``` bash
