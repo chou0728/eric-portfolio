@@ -31,15 +31,15 @@ const zhTW = {
       title: 'Works',
       technologies: 'Technologies:',
       worksItemList: [
-        {
-          id: 'SleekFlow',
-          imageUrl: 'https://i.imgur.com/UFw3psv.png',
-          title: 'SleekFlow',
-          description:
-            'A centralized messaging platform based on React and TypeScript. The mobile App version is built by Flutter framework.',
-          technologies:
-            'Typescript, Redux Observable, XState, Storybook, RxJS, Semantic UI, stylus'
-        },
+        // {
+        //   id: 'SleekFlow',
+        //   imageUrl: 'https://i.imgur.com/UFw3psv.png',
+        //   title: 'SleekFlow',
+        //   description:
+        //     'A centralized messaging platform based on React and TypeScript. The mobile App version is built by Flutter framework.',
+        //   technologies:
+        //     'Typescript, Redux Observable, XState, Storybook, RxJS, Semantic UI, stylus'
+        // },
         {
           id: 'SUPLEX',
           imageUrl: 'https://i.imgur.com/Anh1L77.png',
