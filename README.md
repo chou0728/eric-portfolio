@@ -5,6 +5,15 @@
 ## Node.js version
 v12.14.0
 
+## Firebase setup
+
+``` bash 
+$ npm install -g firebase-tools
+
+$ firebase login
+
+```
+
 ## Build Setup
 
 ``` bash
