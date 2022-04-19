@@ -4,6 +4,7 @@
 
 ## Node.js version
 v12.14.0
+v14.9.0 is ok
 
 ## Firebase setup
 
