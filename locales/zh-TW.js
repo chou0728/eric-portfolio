@@ -36,7 +36,7 @@ const zhTW = {
           imageUrl: 'https://i.imgur.com/UFw3psv.png',
           title: 'SleekFlow',
           description:
-            'A centralized messaging platform based on React and TypeScript. The mobile App version is built by Flutter framework.',
+          'An Omni-Channel social commerce SaaS platform based on React and TypeScript. The mobile App version is built by Flutter framework.',
           technologies:
             'Typescript, Redux Observable, XState, Storybook, RxJS, Semantic UI, stylus'
         },
