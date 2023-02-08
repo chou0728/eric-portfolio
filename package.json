@@ -26,5 +26,8 @@
     "nodemon": "~1.19.0",
     "sass-loader": "~7.1.0",
     "vue-lazyload": "^1.2.6"
-  }
+  }, 
+    "engines": {
+      "node": "v12.22.12"
+    }
 }

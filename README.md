@@ -3,13 +3,12 @@
 > This is Eric&#39;s portfolio.
 
 ## Node.js version
-v12.14.0
-v14.9.0 is ok
+v12.22.12
 
 ## Firebase setup
 
 ``` bash 
-$ npm install -g firebase-tools
+$ npm install -g firebase-tools@10.9.2
 
 $ firebase login
 
@@ -19,7 +18,7 @@ $ firebase login
 
 ``` bash
 # install dependencies
-$ npm run install
+$ npm ci
 
 # serve with hot reload at localhost:3000
 $ npm run dev
